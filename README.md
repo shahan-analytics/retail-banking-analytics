@@ -1,49 +1,67 @@
-# Retail Banking Analytics
-SQL-based analytics project focused on solving real-world banking business problems using structured data.
+## Retail Banking Analytics
+Comprehensive SQL-driven analytics project focused on extracting actionable insights from a synthetic retail banking dataset, covering customer behaviour, transaction dynamics, account performance, and credit risk indicators.
 
 ## Objective
-To analyse retail banking data and generate actionable insights across customers, transactions, accounts, loans, and cards.
+To design and implement a structured analytical framework for retail banking data, enabling deep-dive analysis into customer activity, financial behaviour, and product utilisation using SQL.
 
-## Dataset
-Synthetic banking dataset sourced from Kaggle.
-https://www.kaggle.com/datasets/akrambelha/synthetic-banking-dataset-csv-sql-sqlite
-
-## Business Problem Statements
+## Data Architecture & Preparation
+- Database schema design and normalisation
+- Data ingestion and transformation from raw sources
+- Data validation to ensure consistency and integrity
+- Indexing strategies applied for query performance optimisation
+  
+## Analytical Framework
+The project is structured into multiple analytical phases, each targeting a specific business domain within retail banking.
 
 ### Phase 1: Business Overview
-- What is the overall customer distribution across regions?
-- How are accounts distributed by type and status?
-
+- Evaluated customer distribution across demographic and geographic dimensions  
+- Analysed account composition by type, status, and lifecycle stage  
+- Established baseline KPIs for overall banking activity
+  
 ### Phase 2: Customer Analytics
-- Who are the high-value customers?
-- What are the key customer segments based on activity?
-
+- Performed customer segmentation based on transactional behaviour and account activity  
+- Identified high-value and high-engagement customer cohorts  
+- Analysed behavioural patterns to support targeted decision-making
+  
 ### Phase 3: Transaction Analytics
-- What are the spending patterns across customers?
-- Which transaction types dominate?
-
+- Assessed transaction volume and value distributions across channels  
+- Identified dominant transaction categories and usage trends  
+- Analysed temporal patterns to uncover peak activity periods
+  
 ### Phase 4: Account Analytics
-- Which accounts are most active?
-- What is the distribution of account balances?
+- Evaluated account utilisation and balance distribution  
+- Identified dormant and highly active accounts  
+- Analysed relationships between account types and transaction behaviour  
 
 ### Phase 5: Card Analytics
-- How are cards utilised across customers?
-- What is the transaction behaviour for card users?
-
+- Analysed card usage patterns across customer segments  
+- Evaluated transaction frequency and spending behaviour for card holders  
+- Identified key trends in card-based financial activity
+  
 ### Phase 6: Loan Analytics
-- What is the distribution of loans by type?
-- Are there indicators of potential risk?
+- Analysed loan distribution across product categories  
+- Evaluated repayment behaviour and outstanding balances  
+- Identified potential indicators of credit risk
+  
+### Phase 7: Stored Procedures
+- Developed reusable SQL procedures for modular and scalable analysis  
+- Automated repetitive analytical workflows  
+- Improved maintainability and execution efficiency  
 
-## Project Structure
-- `sql/` → all SQL scripts (setup, validation, analysis)
-- `dataset/` → dataset information
-
+## Repository Structure
+- `sql/` → database setup, validation, indexing, and analytical queries  
+- `dataset/` → dataset reference and sourcing information
+  
 ## Skills Demonstrated
-- Advanced SQL querying  
-- Data validation and cleaning  
-- Business problem solving  
-- Analytical thinking  
-- Query optimisation  
+- Advanced SQL querying and optimisation  
+- Data modelling and schema design  
+- Analytical problem structuring  
+- Behavioural and financial data analysis  
+- Performance tuning using indexing  
+- Modular query design using stored procedures  
+
+## Tools & Technologies
+MySQL • Relational Databases • Excel (supporting validation)
 
 ## Author
 Shahan
