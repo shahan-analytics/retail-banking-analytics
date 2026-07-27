@@ -4,6 +4,17 @@ Comprehensive SQL-driven analytics project focused on extracting actionable insi
 ### Objective
 To design and implement a structured analytical framework for retail banking data, enabling deep-dive analysis into customer activity, financial behaviour, and product utilisation using SQL.
 
+### Data Source
+The dataset used in this project is sourced from Kaggle:
+- Synthetic Retail Banking Dataset  
+  https://www.kaggle.com/datasets/akrambelha/synthetic-banking-dataset-csv-sql-sqlite
+The dataset was ingested and transformed into a relational schema to support structured analytical workflows.
+
+### Data Modeling
+A relational schema was designed to normalize and structure the dataset into multiple interconnected tables representing customers, accounts, transactions, cards, and loans.
+The entity relationships and table dependencies were modeled using Lucidchart to ensure referential integrity and efficient query performance.
+The schema design follows normalized principles to minimize redundancy while enabling scalable analytical queries.
+
 ### Data Architecture & Preparation
 - Database schema design and normalisation
 - Data ingestion and transformation from raw sources
