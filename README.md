@@ -14,6 +14,7 @@ The dataset was ingested and transformed into a relational schema to support str
 A relational schema was designed to normalize and structure the dataset into multiple interconnected tables representing customers, accounts, transactions, cards, and loans.
 The entity relationships and table dependencies were modeled using Lucidchart to ensure referential integrity and efficient query performance.
 The schema design follows normalized principles to minimize redundancy while enabling scalable analytical queries.
+![Relational Schema](docs/schema.png)
 
 ### Data Architecture & Preparation
 - Database schema design and normalisation
