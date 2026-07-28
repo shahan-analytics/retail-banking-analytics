@@ -1,8 +1,12 @@
 ## Retail Banking Analytics
-Comprehensive SQL-driven analytics project focused on extracting actionable insights from a synthetic retail banking dataset, covering customer behaviour, transaction dynamics, account performance, and credit risk indicators.
+SQL-driven analytics project simulating a retail banking environment, focused on uncovering customer behaviour, transaction patterns, and financial product performance through structured query design.
 
 ### Objective
 To design and implement a structured analytical framework for retail banking data, enabling deep-dive analysis into customer activity, financial behaviour, and product utilisation using SQL.
+
+### Business Context
+Retail banks rely on data-driven insights to optimise customer engagement, manage financial risk, and improve product performance. 
+This project replicates a real-world analytical environment where transactional and customer data are leveraged to support strategic decision-making across core banking functions.
 
 ### Data Source
 The dataset used in this project is sourced from Kaggle:
@@ -61,9 +65,20 @@ The project is structured into multiple analytical phases, each targeting a spec
 - Automated repetitive analytical workflows  
 - Improved maintainability and execution efficiency  
 
+### Key Insights
+- Customer deposits are concentrated among a small number of high-value customers.
+- Behavioural transaction analysis identifies anomalous spending patterns for fraud detection.
+- Dormant high-balance accounts present customer engagement opportunities.
+- Low-balance, high-activity accounts indicate potential overdraft risk.
+- Customers with loans exceeding deposits highlight elevated financial risk.
+- Card expiry analysis supports proactive renewal planning.
+- Customer financial summaries and risk scoring enable faster relationship and credit decisions.
+
 ### Repository Structure
-- `sql/` → database setup, validation, indexing, and analytical queries  
-- `dataset/` → dataset reference and sourcing information
+- `sql/` - database setup, validation, indexing, and analytical queries  
+- `dataset/` - dataset reference and sourcing information
+- `docs/` - schema diagram and supporting visuals
+- 'results/' -
   
 ### Skills Demonstrated
 - Advanced SQL querying and optimisation  
@@ -74,7 +89,7 @@ The project is structured into multiple analytical phases, each targeting a spec
 - Modular query design using stored procedures  
 
 ### Tools & Technologies
-MySQL • Relational Databases • Excel (supporting validation)
+SQL (MySQL) • Relational Database Systems • Data Modelling (Lucidchart) • Excel (Data Validation)
 
 ### Author
 Shahan
