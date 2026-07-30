@@ -1,6 +1,6 @@
 ## Retail Banking Analytics
 
-SQL-driven analytics project simulating a retail banking environment, focused on uncovering customer behaviour, transaction patterns, and financial product performance through structured query design.
+SQL-driven analytics project simulating a retail banking environment, designed to extract actionable insights across customer behaviour, transaction dynamics, and financial product performance.
 
 ---
 
